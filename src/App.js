@@ -1,10 +1,14 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Routers from "./Routers";
 
 
 function App() {
   return (
     <div className="App">
-     <Routers/>
+      <Header/>
+      <Routers/>
+      <Footer/>
     </div>
   );
 }
