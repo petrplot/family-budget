@@ -10,7 +10,11 @@ const Login = (props) => {
             <button>Вход</button>
         </div>
         <div className='auth__order'>
-            <p>Если вы еще не зарегистрированы <button onClick={()=>props.onChangeIsLogin(false)} >Зарегистрируйтесь</button></p>
+            <p>Если вы еще не зарегистрированы 
+              <button onClick={()=>props.onChangeIsLogin(false)} >
+                Зарегистрируйтесь
+              </button>
+            </p>
         </div> 
     </div>
   )

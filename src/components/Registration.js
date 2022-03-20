@@ -11,7 +11,11 @@ const Registration = (props) => {
             <button>Зарегистрироваться</button>
         </div> 
         <div className='auth__order'>
-            <p>Если вы уже зарегистрированы <button onClick={()=>props.onChangeIsLogin(true)} >Авторизируйтесь</button></p>
+            <p>Если вы уже зарегистрированы 
+              <button onClick={()=>props.onChangeIsLogin(true)} >
+                Авторизируйтесь
+              </button>
+            </p>
         </div> 
     </div>
   )

@@ -4,15 +4,15 @@ import Registration from '../components/Registration'
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(false)
-  const hendlerChangeIslogin = (bool) => {
+  const handlerChangeIsLogin = (bool) => {
     setIsLogin(bool)
   }
   return (
     isLogin 
     ? 
-    <Login onChangeIsLogin = {hendlerChangeIslogin} />
+    <Login onChangeIsLogin = {handlerChangeIsLogin} />
     : 
-    <Registration onChangeIsLogin = {hendlerChangeIslogin}  />
+    <Registration onChangeIsLogin = {handlerChangeIsLogin}  />
   )
 }
 
